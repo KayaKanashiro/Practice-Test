@@ -8,10 +8,67 @@ Write an article using semantic markup, header, footer, main and section. In the
 Color the header with white text on a blue background, the footer with white text on a green background, the main portion with black text o a parchment colored background. 
 Make the nouns in the header and footer have a text weight of 600, while the rest of the text has a font-weight of 400.
     -->
+<style>
+    body {
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    header {
+        background-color: blue;
+        color: white;
+        font-weight: 400;
+    }
+    header strong {
+        font-weight: 600;
+    }
+
+    footer {
+        background-color: green;
+        color: white;
+        font-weight: 400;
+    }
+
+    footer strong {
+        font-weight: 600;
+    }
+
+    main {
+        background-color: palegoldenrod;
+        color: black;
+        font-weight: 400;
+    }
+
+</style>
         
 </head>
 
 <body>
+    <header>
+        <h1><strong>Old fashioned Typesetting</strong> compared to <strong>Desktop Publishing</strong></h1>
+    </header>
+    <main>
+        <article>
+            <section>
+                <h2>Old Fashion Typesetting</h2>
+                <p>Typesetting back in the day used to have physical metal or wooden blocks of each character and required special skills and equipment for one to complete. It was a very time consuming and labor intensive process with limited flexibility for design changes. It was most frequently used for print media.</p>
+            </section>
+
+            <section>
+                <h2>Modern Day Desktop Publishing (HTML & CSS)</h2>
+                <p>Nowadays modern desktop publishing uses digital software and computers for writing purposes. It is much more accessible to non-professionals and a more efficient and intuitive process. It allows for easy editing and design changes, unlike traditional typesetting. It is also suitable for both print and digital media.</p>
+            </section>
+
+            <section>
+                <h2>Comparison</h2>
+                <p>The key differences between the two are the technology used (physical vs. digital), the flexibility of the writing (design change capability), accessibility (ability to access to reach a large range of users), speed of processing (the amount of time needed for the work), and the cost of the writing (cost-effectiveness). However, they both aim to create visually appealing and readable content while requiring an understanding of layout and typography. While traditional typesetting has been largely replaced, modern HTML and CSS incorporate many of its fundamental principles. The digital nature of HTML and CSS allows for greater flexibility, easier updates, and multi-platform publishing, making it a more versatile and efficient solution for contemporary publishing needs.</p>
+            </section>
+        </article>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 - Kaya Kanashiro</p>
+    </footer>
+
+    
 </body>
 
 </html>
